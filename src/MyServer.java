@@ -20,7 +20,7 @@ public class MyServer {
             System.out.println("message= " + str);
 
             // closing socket
-//            ss.close();
+          ss.close();
 
         } // for catching Exception in run time
         catch (Exception e) {
